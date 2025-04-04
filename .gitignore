@@ -1,0 +1,13 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE-specific
+.vscode/
+.idea/
+
+JWT_SECRET=my_super_secret_key
+
+# Environment variable files
+.env
