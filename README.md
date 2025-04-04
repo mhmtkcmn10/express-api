@@ -12,21 +12,26 @@ Bu proje, Express.js ile oluşturulmuş bir API'yi MongoDB veritabanı ile enteg
 
 Bu projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyebilirsiniz.
 
-### 1. Repository'i Klonlayın
+### Repository'i Klonlayın
+
 Öncelikle bu repository'yi bilgisayarınıza klonlayın:
 ```bash
 git clone https://github.com/mhmtkcmn10/express-api.git
 cd express-api
 
-### 2. Gerekli Bağımlılıkları Yükleyin
+#### Gerekli Bağımlılıkları Yükleyin
+
 npm install
 
-### 3.env Dosyasını Oluşturun 
+#### .env Dosyasını Oluşturun
+
 MONGO_URI=mongodb://localhost:27017/your-database-name
 JWT_SECRET=your_jwt_secret
 
-### 4. Uygulamayı başlatma
+#### Uygulamayı başlatma
+
 npm start
 
-### 5. Swagger UI'yi Görüntüleyin
+#### Swagger UI'yi Görüntüleyin
+
 http://localhost:3000/api-docs
